@@ -1,5 +1,5 @@
 import express from 'express';
-import { SERVER_PORT } from '../global/enviroment';
+import { PORT } from '../global/enviroment';
 
 export default class Server{
     public app:express.Application;
@@ -7,7 +7,7 @@ export default class Server{
 
     constructor(){
         this.app = express();
-        this.port = SERVER_PORT;
+        this.port = PORT;
     }
 
     start( callback:() => void){
