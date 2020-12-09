@@ -4,7 +4,7 @@
     "description": "servicio para convertir un template html a pdf usando pdf-html en node",
     "scripts": {
         "start": "nodemon dist/",
-        "build": "ng build",
+        "build": "webpack",
         "heroku-postbuild": "ng build --prod"
     },
     "engines": {
