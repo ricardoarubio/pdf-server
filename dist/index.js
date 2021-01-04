@@ -25,5 +25,8 @@ var options = { format: 'legal', orientation: "portrait", border: "2px" };
 pdf.create(html, options).toFile('./formato2.pdf', function (err, res) {
     if (err)
         return console.log(err);
-    console.log(res); // { filename: '/app/businesscard.pdf' }
+    console.log(res);
+    {
+        filename: '/app/businesscard.pdf';
+    }
 });
