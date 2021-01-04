@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "servicio para convertir un template html a pdf usando pdf-html en node",
     "scripts": {
-        "start": "nodemon dist/",
+        "start": "node dist/",
         "build": "webpack",
         "heroku-postdeploy": "npm build"
     },
